@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/itemp1"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/item_p1"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/itemp2"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="@string/item_p3"
+        app:showAsAction="ifRoom" />
+
+
+
+    <item android:id="@+id/itemp31"
+        android:title="@string/item_p21"
+        app:showAsAction="never" >
+
+        <menu>
+
+            <item
+                android:id="@+id/itemp311"
+                android:title="@string/ascendente" />
+            <item
+                android:id="@+id/itemp312"
+                android:title="@string/descendente" />
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item android:id="@+id/itemp32"
+        android:title="@string/item_p22"
+        app:showAsAction="never" >
+        <menu>
+
+            <item
+                android:id="@+id/itemp321"
+                android:title="@string/ascendente" />
+            <item
+                android:id="@+id/itemp322"
+                android:title="@string/descendente" />
+
+
+        </menu>
+
+
+
+    </item>
+
+    <item android:id="@+id/itemp33"
+        android:title="@string/item_p23"
+        app:showAsAction="never" >
+
+        <menu>
+
+            <item
+                android:id="@+id/itemp331"
+                android:title="@string/ascendente" />
+            <item
+                android:id="@+id/itemp332"
+                android:title="@string/descendente" />
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/itemp34"
+        android:title="@string/ver_todos_los_pacientes"
+        app:showAsAction="never" />
+
+
+
+</menu>

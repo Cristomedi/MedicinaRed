@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MedicinaRed</string>
+
+    <string name="title_home">Tareas</string>
+    <string name="title_dashboard">Atenciones</string>
+    <string name="title_notifications">Solicitudes</string>
+    <string name="e1">e1</string>
+    <string name="e2">Buscar Paciente</string>
+    <string name="todo1">todo1</string>
+    <string name="textviewfi7">textviewfi7</string>
+    <string name="todofi">todofi</string>
+    <string name="textviewfi15">textviewfi15</string>
+    <string name="textviewfi16">textviewfi16</string>
+    <string name="textviewfi40">textviewfi40</string>
+    <string name="textviewfi31">textviewfi31</string>
+    <string name="textviewfi32">textviewfi32</string>
+    <string name="textviewfi33">textviewfi33</string>
+    <string name="todofi1">todofi1</string>
+    <string name="textviewfi25">textviewfi25</string>
+    <string name="textviewfi41">textviewfi41</string>
+    <string name="buttonfi1">buttonfi1</string>
+    <string name="material_audiovisual">material_audiovisual</string>
+    <string name="textviewfi21">textviewfi21</string>
+    <string name="checkbox">checkbox</string>
+    <string name="checkbox2">checkbox2</string>
+    <string name="textview18">textview18</string>
+    <string name="textview20">textview20</string>
+    <string name="comunicaciones">Comunicaciones</string>
+    <string name="textviewli22">textviewli22</string>
+    <string name="textviewli23">textviewli23</string>
+    <string name="textviewli8">textviewli8</string>
+    <string name="textviewbarrita1">textviewbarrita1</string>
+    <string name="textview4">textview4</string>
+    <string name="b1">b1</string>
+    <string name="sternal2">sternal2</string>
+    <string name="item_p1">item_p1</string>
+    <string name="ver_todos_los_pacientes">Ver Todos Los Pacientes</string>
+    <string name="item_p3">item_p3</string>
+    <string name="item_p21">item_p21</string>
+    <string name="ascendente">ascendente</string>
+    <string name="descendente">descendente</string>
+    <string name="item_p22">item_p22</string>
+
+    <string name="item_p23">item_p23</string>
+
+    <string name="textviewp25">textviewp25</string>
+    <string name="textviewp26">textviewp26</string>
+    <string name="textviewp27">textviewp27</string>
+    <string name="all">all</string>
+    <string name="textview">TextView</string>
+    <string name="buscar">Buscar</string>
+
+    <string name="mis_medicos">Mis Medicos</string>
+
+
+    <string name="atenciones">Atenciones</string>
+    <string name="esta_semana">Esta Semana</string>
+    <string name="mes_anterior">Mes Anterior</string>
+</resources>

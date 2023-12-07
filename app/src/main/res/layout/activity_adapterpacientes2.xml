@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adapterpacientes2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="366dp"
+        android:layout_height="113dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circlepad2"
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/microsoft2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.298" />
+
+        <TextView
+            android:id="@+id/textViewpd25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/textviewp25"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/circlepad2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewpd26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginRight="52dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/textviewp26"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777" />
+
+
+        <TextView
+            android:id="@+id/textViewpd27"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/textviewp27"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/circlepad2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewpd25" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
